@@ -1,4 +1,4 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+# Personal Blog URL ( https://xup65k6t6.github.io/Personal_Blog/ ) 
   
 ## `Sorry guys but there will be no update until I buy a new laptop.`
     

@@ -6,7 +6,7 @@ date: 2023-03-27
 comments: false
 ---
 
-test
+
 # Introduction
 The goal of the project is to predict lung cancer mortality rate in United States. Note that it is to predict probability of lung cancer rate in each county instead of prediction for each person. This project is not a classification but regression problem.
 
@@ -46,11 +46,11 @@ In raw data, it is numeric and not five-digits numbers. So, it is required to co
 
 * **Insights** : Data with "\*" value in the Mortality Rate column (10.37% of overall data) shows -
   1. only a little bit lower poverty ratio 
-![](/assets/images/comparison_of_all_poverty_ratio.png)
+![](assets/images/comparison_of_all_poverty_ratio.png)
   2. no significant difference from the overall median income
-![](/assets/images/comparison_of_median_income.png)
+![](assets/images/comparison_of_median_income.png)
   3. fewer people having health insurance (and the distribution is not normal)
-![](/assets/images/comparison_of_having_health_insurance.png)
+![](assets/images/comparison_of_having_health_insurance.png)
   4. in the columns which are not preprocessed yet such as Incidence_Rate, Avg_Ann_Incidence, Recent_Trend, Avg_Ann_Deaths, this data (* values) has 8+% of meaningless data, such as _ and __)
 * **Final decision** : remove all * values from the Mortality_Rate Column
 
@@ -69,26 +69,26 @@ In raw data, it is numeric and not five-digits numbers. So, it is required to co
 
 For now the summary of dataframe looks like as below.
 
-![](/assets/images/df_info_b4_engineering.png)
+![](assets/images/df_info_b4_engineering.png)
 
 # Feature Engineering
 * Convert population number to rates by population for each county
 Some of the numerical variables are dependent on the populations, so it would be helpful for algoritgns by converting all the raw data to per 100,000 persons rates (divide by population and multiply by 100,000).
 
-![](/assets/images/df_info_after_engineering.png)
+![](assets/images/df_info_after_engineering.png)
 
 # EDA (Exploratory Data Analysis) and Feature Selection
 * Visualize correlation between all features
 
-![](/assets/images/heatmap_of_all_features.png)
+![](assets/images/heatmap_of_all_features.png)
 
 There are some features are highly correlated with each other, such as All_Poverty, M_Poverty, and F_Poverty. Removing those correlation can help reduce colinearity in linear regression models. So, I removed columns with correlation over 0.85 and kept the column having highest correlation with y variable (Mortality_Rate)
 
 * Visualize correlation after removing high correlation (>= 0.85) & check pairplot
 
-![](/assets/images/heatmap_after_remove_colinearity.png)
+![](assets/images/heatmap_after_remove_colinearity.png)
 
-![](/assets/images/pairplot.png)
+![](assets/images/pairplot.png)
 
 The heatmap looks good now.
 
@@ -96,7 +96,7 @@ However, one concern in the pairplot is that All_Poverty looks like an exponenti
 
 * Add categorical variable Recent_Trend and draw a heatmap again
 
-![](/assets/images/heatmap_after_adding_categorical.png)
+![](assets/images/heatmap_after_adding_categorical.png)
 
 There is no strong correlation now.
 
@@ -119,7 +119,7 @@ There is no strong correlation now.
 
 Among all linear regression, the simple linear regression has the best performance, while the other two have similar results in terms of MSE, MAE, and R-squared.
 
-![](/assets/images/linear_regression_comparison.png)
+![](assets/images/linear_regression_comparison.png)
 
 The reason is that I have already filter out other features, so the function of selecting features in Ridge and Lasso algorithms cannot perform well here. Also, the hyperparameter lambda in Ridge and Lasso regression will affect the key features a little bit, leading to slightly worse performance.
 
@@ -130,7 +130,7 @@ There is no multicollinearity in our feature set since all the VIF values are in
 
 In order to get a better sense of R squared value in presence of multicollinearity, you can use adjusted R squared metric that penalize presence of multicollinearity in the model. Since the VIF values here are in acceptable range, I am not performing this step as the high R squared is not due to presence of multicollinearity but indeed represents true explained variance
 
-![](/assets/images/VIF.png)
+![](assets/images/VIF.png)
 
 ## Non-linear Algorithms
 * Random Forest
@@ -142,7 +142,7 @@ Also, XGBoost can work with missing values in the data without the need for manu
 
 The performance of Random Forest v.s. XGBoost :
 
-![](/assets/images/RF_vs_XGB.png)
+![](assets/images/RF_vs_XGB.png)
 
 (P.S. The first row is random forest. & Parameters in both models have been tuned.)
 
@@ -157,8 +157,8 @@ Compare the best results from linear and non-linear regression:
 
 Simple Linear Regression v.s. XGBoost Regression
 
-![](/assets/images/best_linear_result.png) 
-![](/assets/images/best_nonlinear_result.png)
+![](assets/images/best_linear_result.png) 
+![](assets/images/best_nonlinear_result.png)
 
 XGBoost is still the best model so far for this problem.
 

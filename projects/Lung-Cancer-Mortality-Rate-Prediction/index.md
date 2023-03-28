@@ -7,9 +7,6 @@ comments: false
 ---
 
 
-# Lung Cancer Mortality Rate Prediction (Linear Regression, XGBoost)
-
-
 # Introduction
 The goal of the project is to predict lung cancer mortality rate in United States. Note that it is to predict probability of lung cancer rate in each county instead of prediction for each person. This project is not a classification but regression problem.
 

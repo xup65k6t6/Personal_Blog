@@ -1,3 +1,12 @@
+---
+layout: page
+title: Lung Cancer Mortality Rate Prediction (Linear Regression, XGBoost)
+tags: [about, Jekyll, theme, moon]
+date: 2023-03-27
+comments: false
+---
+
+
 # Lung Cancer Mortality Rate Prediction (Linear Regression, XGBoost)
 
 

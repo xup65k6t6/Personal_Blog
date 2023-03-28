@@ -11,6 +11,4 @@ comments: false
 - Achieved 89.33% R-squared
 
 
-[Read More](https://github.com/xup65k6t6/Lung-Cancer-Mortality-Rate-Prediction)
-<!--  Link to another page-->
-<!-- [Read More](https://github.com/xup65k6t6/Lung-Cancer-Mortality-Rate-Prediction) -->
+[Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)

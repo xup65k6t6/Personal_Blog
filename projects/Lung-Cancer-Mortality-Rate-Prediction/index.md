@@ -6,7 +6,7 @@ date: 2023-03-27
 comments: false
 ---
 
-
+test
 # Introduction
 The goal of the project is to predict lung cancer mortality rate in United States. Note that it is to predict probability of lung cancer rate in each county instead of prediction for each person. This project is not a classification but regression problem.
 

@@ -171,3 +171,6 @@ XGBoost is still the best model so far for this problem.
 - Use pipeline to connect every step from imputing to training models
 - Tune hyperparameter
 - Deploy Ridge, Lasso, Random Forest, and XGBoost algorithms for the first time
+
+
+For code detail, you can check [here](https://github.com/xup65k6t6/Lung-Cancer-Mortality-Rate-Prediction).

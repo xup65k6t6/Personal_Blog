@@ -5,7 +5,7 @@ description:        "Hello, welcome to my personal and professional blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/photo.jpg'
-background:         'assets/img/background.png'
+background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://xup65k6t6.github.io/Personal_Blog/

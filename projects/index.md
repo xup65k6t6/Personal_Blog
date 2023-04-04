@@ -12,3 +12,9 @@ comments: false
 
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
+
+
+## YVR Energy Usage Forecast (ARIMA, ETS model)
+- Forecast energy consumption at the Vancouver International Airport (YVR) using time series models
+
+[Read More](https://xup65k6t6.github.io/Personal_Blog/projects/YVR-Energy-Usage-Forecast/)

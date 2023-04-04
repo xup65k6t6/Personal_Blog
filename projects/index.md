@@ -24,3 +24,5 @@ comments: false
 - Sentiment analysis for McDonalds and KFC (Twitter API, NLTK, WordCloud)
 - Vancouver Housing price prediction (Linear Regression)
 - 2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)
+- Google - UBC MBAN Hackathon: ABD Liquor Sales 
+<!-- (https://lookerstudio.google.com/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9) -->

@@ -1,3 +1,11 @@
+---
+layout: page
+title: YVR Energy Usage Forecast (ARIMA, ETS model)
+tags: [about, Jekyll, theme, moon]
+date: 2023-04-03
+comments: false
+---
+
 # YVR-Energy-Usage-Forecast
 
 # Introduction

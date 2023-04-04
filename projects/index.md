@@ -10,7 +10,6 @@ comments: false
 - Predict lung cancer mortality rate in the United States using Linear Regression and XGBoost
 - Achieved 89.33% R-squared
 
-
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
 
 
@@ -18,3 +17,9 @@ comments: false
 - Forecast energy consumption at the Vancouver International Airport (YVR) using time series models
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/YVR-Energy-Usage-Forecast/)
+
+---
+
+## Coming Soon
+- Sentiment analysis for McDonalds and KFC
+- Vancouver-Housing-price-prediction 

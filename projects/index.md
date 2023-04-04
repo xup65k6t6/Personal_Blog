@@ -21,5 +21,6 @@ comments: false
 ---
 
 ## Coming Soon
-- Sentiment analysis for McDonalds and KFC
-- Vancouver-Housing-price-prediction 
+- Sentiment analysis for McDonalds and KFC (Twitter API, NLTK, WordCloud)
+- Vancouver Housing price prediction (Linear Regression)
+- 2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)

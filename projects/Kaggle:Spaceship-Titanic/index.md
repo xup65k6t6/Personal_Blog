@@ -14,6 +14,7 @@ The data source is from [https://www.kaggle.com/competitions/spaceship-titanic](
 
 I blended predictive results using Vote Classfifier from three different model --  CatBoost, XGBoost, and LGBM -- to maximize accuracy of the prediction.
 
+\\ start from here
 
 # Datasets
 * 12 variables for each passenger and a column for succesfully transported or not (y variable). Total 8,693 rows.

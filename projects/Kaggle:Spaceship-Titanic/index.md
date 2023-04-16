@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Kaggle: Spaceship Titanic"
+title: "Kaggle: Spaceship Titanic (XGBoost, LightGBM, CatBoost, Vote Classifier) "
 tags: [about, Jekyll, theme, moon]
 date: 2023-04-15
 comments: false

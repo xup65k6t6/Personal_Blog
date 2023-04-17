@@ -6,20 +6,20 @@ date: 2023-04-04
 comments: false
 ---
 
-## Lung Cancer Mortality Rate Prediction (Linear Regression, XGBoost)
+## [Lung Cancer Mortality Rate Prediction (Linear Regression, XGBoost)](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
 - Predict lung cancer mortality rate in the United States using Linear Regression and XGBoost
 - Achieved 89.33% R-squared
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
 
 
-## YVR Energy Usage Forecast (ARIMA, ETS model)
+## [YVR Energy Usage Forecast (ARIMA, ETS model)](https://xup65k6t6.github.io/Personal_Blog/projects/YVR-Energy-Usage-Forecast/)
 - Forecast energy consumption at the Vancouver International Airport (YVR) using time series models
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/YVR-Energy-Usage-Forecast/)
 
 
-## Kaggle: Spaceship Titanic (LightGBM, CatBoost, Vote Classifier)
+## [Kaggle: Spaceship Titanic (LightGBM, CatBoost, Vote Classifier)](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 - Predict which passengers are successfully transported to an alternate dimension
 - R-squared for test dataset after submission was 0.80757
 - Rank: 193/2499 (Top 7% by April 16, 2023)

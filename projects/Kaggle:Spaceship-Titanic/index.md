@@ -17,7 +17,7 @@ I blended predictive results using Vote Classfifier from two algorithms --  LGBM
 
 Achievement
 - R-squared for test dataset after submission was 0.80757
-- Rank: 193/2499 (Top 7% by April 16, 2023)
+- Rank: 193/2499 (Top 7% as of April 16, 2023)
 
 # Datasets
 - 12 variables for each passenger and a column for succesfully transported or not (y variable). Total 8,693 rows for training set, 4,277 rows for test set.
@@ -45,7 +45,7 @@ Achievement
 
 ![](assets/images/plot2.png)
 
-- There is no features having missing values over 5%.
+- There are no features with missing values over 5%.
 
 ![](assets/images/plot3.png)
 

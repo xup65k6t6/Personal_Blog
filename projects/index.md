@@ -24,7 +24,7 @@ comments: false
 - R-squared for test dataset after submission was 0.80757
 - Rank: 193/2499 (Top 7% by April 16, 2023)
 
-[Read More](https://github.com/xup65k6t6/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
+[Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 
 ---
 

@@ -10,7 +10,7 @@ comments: false
 April 17, 2023
 - Predict which passengers are successfully transported to an alternate dimension
 - R-squared for test dataset after submission was 0.80757
-- Rank: 193/2499 (Top 7% by April 16, 2023)
+- Rank: 133/2504 (Top 5% by April 17, 2023)
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 

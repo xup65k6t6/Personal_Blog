@@ -16,8 +16,8 @@ The data source is from [https://www.kaggle.com/competitions/spaceship-titanic](
 I blended predictive results using Vote Classfifier from two algorithms --  LGBM, and CatBoost -- to maximize accuracy of the prediction.
 
 Achievement
-- R-squared for test dataset after submission was 0.80757
-- Rank: 193/2499 (Top 7% as of April 16, 2023)
+- R-squared for test dataset after submission was 0.80897
+- Rank: 133/2504 (Top 5% as of April 17, 2023)
 
 # Datasets
 - 12 variables for each passenger and a column for succesfully transported or not (y variable). Total 8,693 rows for training set, 4,277 rows for test set.

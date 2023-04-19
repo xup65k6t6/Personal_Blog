@@ -1,6 +1,6 @@
 # Personal Blog URL ( https://xup65k6t6.github.io/Personal_Blog/ ) 
   
-## `Sorry guys but there will be no update until I buy a new laptop.`
+<!-- ## `Sorry guys but there will be no update until I buy a new laptop.` -->
     
 ######(If you like this theme or using it, please give a :star: for motivation.)
 

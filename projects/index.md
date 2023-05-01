@@ -33,8 +33,8 @@ March 27, 2023
 ---
 
 ## Coming Soon
-- Sentiment analysis for McDonalds and KFC (Twitter API, NLTK, WordCloud)
+- [Kaggle: Ames House Prices Prediction (Ridge, Support Vector Machine, Voting Regression)](https://www.kaggle.com/code/cclinnilcc/house-prices-ames-housing)
+- Twitter NLP Sentiment Analysis for McDonald's and KFC (Tweepy, TextBlob, NLTK, WordCloud)
 - Vancouver Housing price prediction (Linear Regression)
-- 2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)
-- Google - UBC MBAN Hackathon: ABD Liquor Sales 
-<!-- (https://lookerstudio.google.com/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9) -->
+- [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/)
+- [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)

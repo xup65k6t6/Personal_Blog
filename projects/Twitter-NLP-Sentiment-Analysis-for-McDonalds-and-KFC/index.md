@@ -53,20 +53,20 @@ The most common words before and after removing stopwords for McDonald's and KFC
 
 To gain initial insights, some preliminary analyses were performed to showcase basic information about the two restaurants.
 
-1. Most popular hashtags (#)
+**Most popular hashtags (#)**
 
 ![Most popular hashtags](assets/images/Most%20popular%20hashtags.png)
 
 - The hashtag #pakvseng2022 is popular for KFC because, during a recent cricket match between Pakistan and England, KFC pledged to donate Rs 50,000/- to flood-hit victims in Pakistan for every wicket taken by Pakistan.
 - The hashtag #georgenotfoundfanart is related to a popular YouTuber who recently went viral, and people have been tagging him in McDonald's-related tweets.
 
-2. Most popular usernames (@)
+**Most popular usernames (@)**
 
 ![Most popular usernames](assets/images/Most%20popular%20usernames.png)
 
 The most frequently mentioned username for McDonald's is "@McDonalds", indicating that the company actively engages with users on Twitter.
 
-3. Trend of tweets count
+**Trend of tweets count**
 
 ![Trend of tweets count](assets/images/Trend%20of%20tweets%20count.png)
 

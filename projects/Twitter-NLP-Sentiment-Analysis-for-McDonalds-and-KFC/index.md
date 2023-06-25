@@ -14,9 +14,6 @@ The "Twitter Sentiment Analysis" project focuses on the sentiment analysis of tw
 
 The project code is available on GitHub [here](https://github.com/xup65k6t6/Twitter_Sentiment_Analysis/blob/main/tweet_collection_final%20version.ipynb).
 
-Result
-- result 1
-- result 2
 
 # Language and libraries
 **Language** : Python
@@ -31,31 +28,90 @@ Result
 # Data Collection
 
 ## Tweets
-To collect the tweets, It employed the Tweepy library, which provides access to the Twitter API. Users can specify keywords or hashtags to gather relevant tweets. It retrieved 5000 tweets for the keyword "mcdonalds" and "kfc” respectively, setting the language to english only. The data collected includes the tweets from Oct 1, 2022, to Oct 3, 2022.
+To collect the tweets, the project utilizes the Tweepy library, which provides access to the Twitter API. Users can specify keywords or hashtags to gather relevant tweets. In this project, 5000 tweets were collected for each keyword: "mcdonalds" and "kfc". The tweets were collected in English language only. The data collected spans from October 1, 2022, to October 3, 2022.
 
 ## Authors
-It collected the author's information related to all the tweets mentioned above. There are 4406 unique author id in Mcdonald's and 4396 author id in KFC. We have fetched 4390 unique and valid author information for Mcdondals and 4373 for KFC. There are a few authors whose ids are not found which might be due to the cancellation of the account.
+The project also collected information about the authors of the tweets mentioned above. For McDonald's, there are 4406 unique author IDs, and for KFC, there are 4396 unique author IDs. The project successfully fetched 4390 unique and valid author information for McDonald's and 4373 for KFC. There are a few authors whose IDs were not found, which might be due to the deactivation of their accounts.
 
-Note that Tweepy has a protection scheme that allows extracting only 300 authors' data every 15 minutes (as of Oct 3, 2022). So it included a sleep function when querying author data.
+Note: Tweepy has a rate limit of 300 author data requests every 15 minutes (as of October 3, 2022). To adhere to this limit, the project includes a sleep function during author data querying.
 
-\\ start from here
 
-# Data Preprocessing
+# Data Cleaning -- Remove URLs and other stop words
 
-The collected tweets undergo preprocessing steps to clean and prepare them for sentiment analysis. The NLTK library is used for tasks such as tokenization, removing stopwords, and stemming. URLs, mentions, and special characters are removed to extract the meaningful text for sentiment analysis.
+The collected tweets undergo preprocessing steps to clean and prepare them for sentiment analysis. The NLTK library is used for tasks such as tokenization, removing stopwords, and stemming. URLs, mentions, and special characters are removed to extract meaningful text for sentiment analysis.
 
-- remove stop words and URL
+Stop words are the words that are filtered out before or after processing of natural language data (text) because they are insignificant, such as "a", "the", "is", "and", etc. In this project, URLs are also removed, as they may contain references to websites not relevant to the scope of the project. Additionally, some tweets may include "RT" (indicating a retweet).
+
+The most common words before and after removing stopwords for McDonald's and KFC respectively are shown below:
+
+![stop_words_removed_Mc]()
+
+![stop_words_removed_KFC]()
+
+
+# Preliminary Analysis
+
+To gain initial insights, some preliminary analyses were performed to showcase basic information about the two restaurants.
+
+1. Most popular hashtags (#)
+
+![Most popular hashtags]()
+
+- The hashtag #pakvseng2022 is popular for KFC because, during a recent cricket match between Pakistan and England, KFC pledged to donate Rs 50,000/- to flood-hit victims in Pakistan for every wicket taken by Pakistan.
+- The hashtag #georgenotfoundfanart is related to a popular YouTuber who recently went viral, and people have been tagging him in McDonald's-related tweets.
+
+2. Most popular usernames (@)
+
+![Most popular usernames]()
+
+The most frequently mentioned username for McDonald's is "@McDonalds", indicating that the company actively engages with users on Twitter.
+
+3. Trend of tweets count
+
+![Trend of tweets count]()
+
+
+# Word Cloud
+
+Before creating the word cloud, lemmatization was applied to transform every word back into its base or dictionary form. This helps reduce the repetition of words in the word cloud graph.
+
+![word_cloud]()
+
+The word clouds for both McDonald's and KFC reveal that people are interested in "happy meals" and "chicken nuggets" for McDonald's, while KFC is known for its "chicken." The word clouds also contain more positive words than negative words for both brands, indicating a generally positive sentiment among users.
+
 
 # Sentiment Analysis
 
-The sentiment analysis is performed using the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool. VADER assigns sentiment scores to individual words and calculates an overall sentiment score for each tweet. The sentiment scores indicate the positivity, negativity, and neutrality of the text.
+## Subjectivity Score & Polarity Score
 
-# Visualization
+- Subjectivity: a number within the range from 0 to 1 where 0 is very objective and 1 is very subjective.
+- Polarity: a number which lies in the range of 0 and 1 where 1 means a positive statement and -1 means a negative statement.
 
-The project incorporates various visualizations to present the results of the sentiment analysis. These visualizations include graphs and plots that provide insights into the overall sentiment distribution, frequently used positive and negative words, and the top influential users in the collected tweets.
+**Average Subjectivity and Polarity scores:** 
+
+![avg scores]()
+
+**Subjectivity Distribution**
+
+![Subjectivity scores]()
+
+The subjectivity score of McDonald's and KFC is approximately 0.3 which shows that the majority of people tweet facts about the products and the brand rather than their personal opinions.
+
+**Polarity Distribution**
+
+![Polarity scores]()
+
+The average polarity score for Mcdonald's is 0.082 and KFC has an average polarity of 0.02, which shows that most people have a neutral sentiment about these two brands. 
+
+The difference in polarity scores is minimal, indicating that more customer reviews are needed to evaluate the performance of each brand.
+
+# Insights
+
+Despite the advancements in technology, people still have a strong affinity for McDonald's and KFC. The word clouds demonstrate that people show interest in McDonald's happy meals and chicken nuggets, as well as KFC's chicken. The presence of more positive words than negative words in both word clouds suggests a generally positive attitude toward the brands.
 
 # Future Improvement
-1. Utilize VADER Sentiment Analysis to deal with special wording on social media
+Utilize VADER Sentiment Analysis to deal with unique wording on social media
 
-The code is well-documented and can be accessed on GitHub for a detailed understanding of the implementation and further exploration.
+# Code
+The code can be accessed on GitHub [here]() for a detailed understanding of the implementation and further exploration.
 

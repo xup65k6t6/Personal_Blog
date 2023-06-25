@@ -2,11 +2,11 @@
 layout: page
 title: "Twitter NLP Sentiment Analysis (Tweepy, TextBlob, NLTK, WordCloud)"
 tags: [python, sentiment analysis, NLP, Tweepy, NLTK]
-date: 2023-06-20
+date: 2023-06-24
 comments: false
 ---
 
-June 20, 2023
+June 24, 2023
 
 # Introduction
 
@@ -44,9 +44,9 @@ Stop words are the words that are filtered out before or after processing of nat
 
 The most common words before and after removing stopwords for McDonald's and KFC respectively are shown below:
 
-![stop_words_removed_Mc]()
+![stop_words_removed_Mc](assets/images/stop_words_removed_Mc.png)
 
-![stop_words_removed_KFC]()
+![stop_words_removed_KFC](assets/images/stop_words_removed_KFC.png)
 
 
 # Preliminary Analysis
@@ -55,27 +55,27 @@ To gain initial insights, some preliminary analyses were performed to showcase b
 
 1. Most popular hashtags (#)
 
-![Most popular hashtags]()
+![Most popular hashtags](assets/images/Most%20popular%20hashtags.png)
 
 - The hashtag #pakvseng2022 is popular for KFC because, during a recent cricket match between Pakistan and England, KFC pledged to donate Rs 50,000/- to flood-hit victims in Pakistan for every wicket taken by Pakistan.
 - The hashtag #georgenotfoundfanart is related to a popular YouTuber who recently went viral, and people have been tagging him in McDonald's-related tweets.
 
 2. Most popular usernames (@)
 
-![Most popular usernames]()
+![Most popular usernames](assets/images/Most%20popular%20usernames.png)
 
 The most frequently mentioned username for McDonald's is "@McDonalds", indicating that the company actively engages with users on Twitter.
 
 3. Trend of tweets count
 
-![Trend of tweets count]()
+![Trend of tweets count](assets/images/Trend%20of%20tweets%20count.png)
 
 
 # Word Cloud
 
 Before creating the word cloud, lemmatization was applied to transform every word back into its base or dictionary form. This helps reduce the repetition of words in the word cloud graph.
 
-![word_cloud]()
+![word_cloud](assets/images/word_cloud.png)
 
 The word clouds for both McDonald's and KFC reveal that people are interested in "happy meals" and "chicken nuggets" for McDonald's, while KFC is known for its "chicken." The word clouds also contain more positive words than negative words for both brands, indicating a generally positive sentiment among users.
 
@@ -89,17 +89,17 @@ The word clouds for both McDonald's and KFC reveal that people are interested in
 
 **Average Subjectivity and Polarity scores:** 
 
-![avg scores]()
+![avg scores](assets/images/avg%20scores.png)
 
 **Subjectivity Distribution**
 
-![Subjectivity scores]()
+![Subjectivity scores](assets/images/Subjectivity%20scores.png)
 
 The subjectivity score of McDonald's and KFC is approximately 0.3 which shows that the majority of people tweet facts about the products and the brand rather than their personal opinions.
 
 **Polarity Distribution**
 
-![Polarity scores]()
+![Polarity scores](assets/images/Polarity%20scores.png)
 
 The average polarity score for Mcdonald's is 0.082 and KFC has an average polarity of 0.02, which shows that most people have a neutral sentiment about these two brands. 
 
@@ -113,5 +113,5 @@ Despite the advancements in technology, people still have a strong affinity for 
 Utilize VADER Sentiment Analysis to deal with unique wording on social media
 
 # Code
-The code can be accessed on GitHub [here]() for a detailed understanding of the implementation and further exploration.
+The code can be accessed on GitHub [here](https://github.com/xup65k6t6/Twitter_Sentiment_Analysis/blob/main/tweet_collection_final%20version.ipynb) for a detailed understanding of the implementation and further exploration.
 

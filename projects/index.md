@@ -11,6 +11,8 @@ June 24, 2023
 
 - Conduct fundamental NLP Sentiment analysis for McDonald's and KFC by querying Tweets
 
+[Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
+
 ## [Kaggle: Spaceship Titanic (LightGBM, CatBoost, Vote Classifier)](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 April 17, 2023
 - Predict which passengers are successfully transported to an alternate dimension

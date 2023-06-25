@@ -6,6 +6,11 @@ date: 2023-04-04
 comments: false
 ---
 
+## [Twitter NLP Sentiment Analysis for McDonald's and KFC (Tweepy, TextBlob, NLTK, WordCloud)](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
+June 24, 2023
+
+- Conduct fundamental NLP Sentiment analysis for McDonald's and KFC by querying Tweets
+
 ## [Kaggle: Spaceship Titanic (LightGBM, CatBoost, Vote Classifier)](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 April 17, 2023
 - Predict which passengers are successfully transported to an alternate dimension
@@ -34,7 +39,5 @@ March 27, 2023
 
 ## Coming Soon
 - [Kaggle: Ames House Prices Prediction (Ridge, Support Vector Machine, Voting Regression)](https://www.kaggle.com/code/cclinnilcc/house-prices-ames-housing)
-- Twitter NLP Sentiment Analysis for McDonald's and KFC (Tweepy, TextBlob, NLTK, WordCloud)
-- Vancouver Housing price prediction (Linear Regression)
 - [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/)
 - [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)

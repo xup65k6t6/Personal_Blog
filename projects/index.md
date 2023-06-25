@@ -6,7 +6,7 @@ date: 2023-04-04
 comments: false
 ---
 
-## [Twitter NLP Sentiment Analysis for McDonald's and KFC (Tweepy, TextBlob, NLTK, WordCloud)](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
+## [Twitter NLP Sentiment Analysis (Tweepy, TextBlob, NLTK, WordCloud)](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
 June 24, 2023
 
 - Conduct fundamental NLP Sentiment analysis for McDonald's and KFC by querying Tweets

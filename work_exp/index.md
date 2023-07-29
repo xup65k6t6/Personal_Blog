@@ -2,9 +2,15 @@
 layout: page
 title: Professional Working Experience
 tags: [about, Jekyll, theme, moon]
-date: 2023-03-01
+date: 2023-07-28
 comments: false
 ---
+
+## Data Scientist Intern
+### Thoughtswin Systems (Surrey, Canada)
+- Designed and implemented image processing algorithms using Python and OpenCV to analyze and extract different shapes from images, automating image recognition and classification with a 70% accuracy rate
+- Utilized Optical Character Recognition (OCR) techniques to extract text from hand-written images, enhancing data and object detection capabilities by processing an average of 145 images per hour
+- Collaborated with software engineering teams to integrate image processing functionalities into larger software systems, and published the developed module as a PyPi online-installable package 
 
 ## Data Analyst Associate, Business Consulting Team
 ### ALLERGAN AESTHETIC, AN ABBVIE COMPANY (Taipei, Taiwan)

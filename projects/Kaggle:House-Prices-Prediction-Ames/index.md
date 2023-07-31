@@ -88,13 +88,13 @@ I created a few new features based on domain knowledge to increase model perform
 
 ![](assets/images/distribution_plot_FE.png)
 
+Because all new features are skewed, I decided to use another transformation called **Yeo-Johnson Transforamtion** to improve performance.
+
 # Correlation Heatmap with Targer Variable
 I performed EDA to gain insights into the relationships between various features and the target variable (house prices).
 
 Correlation Heatmap with Targer Variable (house prices)
 ![](assets/images/feature_correlation_w_y.png)
-
-Because all new features are skewed, I decided to use another transformation called **Yeo-Johnson Transforamtion** to improve performance.
 
 # Model Building
 * Split Data: 85% training set, 15% validation set 
@@ -119,13 +119,13 @@ I then decided to **combine them together** to see if it is possible to achieve 
 
 ![](assets/images/model_performance_table.png)
 
+\* Note that lower MAPE means better model performance.
+
 It turns out the model combining all of them performs better than any single model itself, showing on the `Blending` model above.
 
 The diagram of model is as below.
 
 ![](assets/images/model_diagram.png)
-
-\* Note that lower MAPE means better model performance.
 
 # Evaluation
 - Evaluation Metric: MAPE (Mean Absolute Percentage Error)

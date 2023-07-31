@@ -44,9 +44,12 @@ March 27, 2023
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
 
+## [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)
+February 17, 2023
+- Forecast liquor sales of Iowa state using ARIMA model
+- Dashboard ~~
 
 ---
 
 ## Coming Soon
 - [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/)
-- [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)

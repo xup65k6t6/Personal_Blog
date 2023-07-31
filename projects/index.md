@@ -6,6 +6,14 @@ date: 2023-04-04
 comments: false
 ---
 
+## [Kaggle: Ames House Prices Prediction (Ridge, Support Vector Machine, Voting Regression)](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:House-Prices-Prediction-Ames/)
+July 29, 2023
+
+- MAPE for test dataset after submission was 0.12069
+- Rank: 271/4237 (Top 6% as of July 29, 2023)
+
+[Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:House-Prices-Prediction-Ames/)
+
 ## [Twitter NLP Sentiment Analysis (Tweepy, TextBlob, NLTK, WordCloud)](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
 June 24, 2023
 
@@ -40,6 +48,5 @@ March 27, 2023
 ---
 
 ## Coming Soon
-- [Kaggle: Ames House Prices Prediction (Ridge, Support Vector Machine, Voting Regression)](https://www.kaggle.com/code/cclinnilcc/house-prices-ames-housing)
 - [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/)
 - [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)

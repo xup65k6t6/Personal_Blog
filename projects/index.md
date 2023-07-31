@@ -2,7 +2,7 @@
 layout: page
 title: All Projects
 tags: [about, Jekyll, theme, moon]
-date: 2023-04-04
+date: 2023-07-30
 comments: false
 ---
 
@@ -14,12 +14,14 @@ July 29, 2023
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:House-Prices-Prediction-Ames/)
 
+
 ## [Twitter NLP Sentiment Analysis (Tweepy, TextBlob, NLTK, WordCloud)](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
 June 24, 2023
 
 - Conduct fundamental NLP Sentiment analysis for McDonald's and KFC by querying Tweets
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Twitter-NLP-Sentiment-Analysis-for-McDonalds-and-KFC/)
+
 
 ## [Kaggle: Spaceship Titanic (LightGBM, CatBoost, Vote Classifier)](https://xup65k6t6.github.io/Personal_Blog/projects/Kaggle:Spaceship-Titanic/)
 April 17, 2023
@@ -44,12 +46,13 @@ March 27, 2023
 
 [Read More](https://xup65k6t6.github.io/Personal_Blog/projects/Lung-Cancer-Mortality-Rate-Prediction/)
 
+
 ## [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)
 February 17, 2023
-- Forecast liquor sales of Iowa state using ARIMA model
-- Dashboard ~~
+- Forecast liquor sales of Iowa state using ARIMA model 
+- Google Looker Dashboard [here]((https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9))
 
----
+<!-- ---
 
 ## Coming Soon
-- [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/)
+- [2023 EY Open Science Data Challenge Level 2 – Crop forecasting (Microsoft Planetary Computer)](https://challenge.ey.com/) -->

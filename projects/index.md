@@ -50,7 +50,7 @@ March 27, 2023
 ## [Google-UBC MBAN Hackathon – ABD Liquor Sales (ARIMA, GCP, Looker, BigQuery)](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)
 February 17, 2023
 - Forecast liquor sales of Iowa state using ARIMA model 
-- Google Looker Dashboard ![here](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)
+- Google Looker Dashboard   [here](https://lookerstudio.google.com/u/0/reporting/4ecd3ac4-9b47-4c97-8730-5c87ea10ebf9)
 
 <!-- ---
 

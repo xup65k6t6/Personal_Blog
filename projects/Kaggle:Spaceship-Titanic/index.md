@@ -156,4 +156,4 @@ It seems CryoSleep is not the most important but still the top 7th.
 - Voting Classifier is not helpfull all the time: When combining multiple algorithms with Voting classifier, it might not be always good because some algorithms outperform others or because the beneifts of algorithms would cancel out each other. In this case, those single algorithms such as Catboost and LightGBM perform better than Voting classifier.
 
 # Code
-For code detail, you can check [Kaggle here](https://www.kaggle.com/code/cclinnilcc/spaceship-titanic).
+For code detail, you can check [Kaggle here](https://www.kaggle.com/code/cclinnilcc/spaceship-titanic) or [Github here](https://github.com/xup65k6t6/Personal_Blog/blob/master/projects/Kaggle%3AHouse-Prices-Prediction-Ames/spaceship-titanic.ipynb).
